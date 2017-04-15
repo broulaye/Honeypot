@@ -1,6 +1,6 @@
 # Project 10 - Honeypot
 
-Time spent: **X** hours spent in total
+Time spent: 3 hours spent in total
 
 > Objective: Setup a honeypot and provide a working demonstration of its features.
 
@@ -12,9 +12,9 @@ Time spent: **X** hours spent in total
 	- A bash script that installs and configures the honeypot for a specific OS
 	- Alternatively, **detailed** notes added to the `README.md` regarding the setup, requirements, features, etc.
   
-  The Modern Honey Network was used to set up this honeypot. A local setup of an MHN sever and honeypot using vagrant was done. 
-  Two Virtual machines were installed and launched. The first is the honeypot itself that will act as the target, the second is
-  a server that will be monitoring data collected by the honeypot. To set these up the user will first have to clone the github
+  The Modern Honey Network was used to set up this honeypot. A local setup of an MHN sever and honeypot was done. 
+  Two Virtual machines were installed and launched. The first is the honeypot itself that will act as the target, second is
+  a server that will be monitoring data collected by the honeypot. To set these up the user will first have to clone the
   repo containing the source code of the MHN at https://github.com/threatstream/mhn.git. After doing so, the user will have to 
   launch the Virtual machines via vagrant. After launching the virtual machine the user will have to ssh into the server and 
   clone the same MHN repo again in order to run scripts in that server that will allow it to monitor data collected by the 
@@ -37,7 +37,7 @@ Time spent: **X** hours spent in total
    this data contain the date the attack was conducted, the source ip, the destination port, the protocol use and the honeypot 
    attacked.
 - [x] A screen-cap of the attack being conducted
-  
+  GIF Walkthrough: <img src='http://i.imgur.com/VJXr6c7.gif' title='Video Walkthrough' width='' alt='Honeypot' />
     
 ### Optional: Features
 - Honeypot
